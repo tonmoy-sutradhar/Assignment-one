@@ -510,3 +510,11 @@ body {
   border-style: none;
   height: 35px;
 }
+
+/* Footer section start */
+.link-contaier-section {
+  width: 1474px;
+  height: 100px;
+  margin-top: 60px;
+  border: 2px solid blue;
+}
