@@ -516,5 +516,20 @@ body {
   width: 1474px;
   height: 100px;
   margin-top: 60px;
+  background: rgba(13, 19, 33, 0.03);
   border: 2px solid blue;
 }
+
+.link-content {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+  /* padding: 35px; */
+  padding: 32px 150px 32px 150px;
+}
+.link-content p {
+  font-size: 15px;
+  font-weight: 600;
+}
+/* .link-content div {
+} */
