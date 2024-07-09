@@ -509,6 +509,7 @@ body {
   font-weight: bold;
   border-style: none;
   height: 35px;
+  cursor: pointer;
 }
 
 /* Footer section start */
