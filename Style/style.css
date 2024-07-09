@@ -11,6 +11,7 @@
   font-size: 15px;
   width: 110px;
   height: 42px;
+  cursor: pointer;
   color: rgb(13, 19, 33);
 }
 
@@ -222,5 +223,43 @@ body {
   width: 1140px;
   height: 775px;
   margin: 0 auto;
+  margin-top: 90px;
+  border: 2px solid red;
+}
+
+.inspiration-section {
+  width: 1076px;
+  height: 775px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border: 2px solid black;
+}
+
+.inspiration-text {
+  width: 852px;
+  height: 113px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid blue;
+}
+.inspiration-text p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.inspiration-youtube-link {
+  width: 1076px;
+  height: 1000px;
+  margin-top: 60px;
+  border-radius: 16px;
   border: 2px solid red;
 }
