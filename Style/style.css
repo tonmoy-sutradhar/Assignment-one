@@ -294,8 +294,12 @@ nav button {
   width: 1076px;
   height: 1000px;
   margin-top: 60px;
-  border-radius: 16px;
   /* border: 2px solid red; */
+}
+
+.rounded-iframe {
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 /* My Current Target */
