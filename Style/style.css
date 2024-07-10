@@ -335,20 +335,26 @@ nav button {
   /* border: 2px solid rgb(4, 0, 238); */
 }
 
+/* current topic 1... */
 .current-topic-one-border {
   width: 364px;
   height: 299px;
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background: rgba(255, 76, 30, 0.05);
   border-radius: 16px;
   margin: o auto;
+  gap: 15px;
+  padding: 40px 40px 40px 40px;
   /* border: 2px solid red; */
 }
 
-/* current topic 1... */
-.current-topic-one {
+/* This is the extra border  */
+/* .current-topic-one {
   width: 284px;
   height: 219px;
   display: flex;
@@ -357,27 +363,29 @@ nav button {
   align-items: flex-start;
   padding: 0px;
   margin: 0 auto;
-  /* margin: 20px; */
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
   gap: 15px;
-  /* border: 2px solid blue; */
-}
+  border: 2px solid blue;
+} */
 
 .current-topic-one h3 {
   text-align: left;
-  /* margin-top: 10px; */
+  margin-top: 10px;
 }
 .current-topic-one p {
   font-size: 13px;
   font-weight: 400;
   /* text-align: center; */
+  margin-top: 10px;
   opacity: 0.7;
 }
 #learn-more-link {
   font-size: 15px;
   font-weight: bold;
   text-align: left;
+  color: black;
+  margin-top: 45px;
   text-decoration: underline;
 }
 
@@ -386,14 +394,19 @@ nav button {
   width: 364px;
   height: 299px;
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background: rgba(0, 76, 232, 0.05);
+  padding: 40px 40px 40px 40px;
   border-radius: 16px;
   margin: o auto;
   /* border: 2px solid rgb(5, 20, 229); */
 }
-.current-topic-two {
+/* This is the extra border  */
+/* .current-topic-two {
   width: 284px;
   height: 219px;
   display: flex;
@@ -406,16 +419,17 @@ nav button {
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
   gap: 15px;
-  /* border: 2px solid red; */
-}
+  border: 2px solid red;
+} */
 
 .current-topic-two h3 {
   text-align: left;
-  /* margin-top: 10px; */
+  margin-top: 10px;
 }
 .current-topic-two p {
   font-size: 13px;
   font-weight: 400;
+  margin-top: 15px;
   /* text-align: center; */
   opacity: 0.7;
 }
@@ -423,6 +437,8 @@ nav button {
   font-size: 15px;
   font-weight: bold;
   text-align: left;
+  margin-top: 45px;
+  color: black;
   text-decoration: underline;
 }
 
@@ -431,16 +447,20 @@ nav button {
   width: 364px;
   height: 299px;
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background: rgba(255, 223, 0, 0.05);
+  padding: 40px 40px 40px 40px;
   border-radius: 16px;
   margin: o auto;
   /* border: 2px solid rgb(7, 237, 88); */
 }
-.current-topic-three {
-  /* width: 284px;
-  height: 250px; */
+
+/* This is the extra border  */
+/* .current-topic-three {
   width: 284px;
   height: 219px;
   display: flex;
@@ -452,23 +472,27 @@ nav button {
   margin: 20px;
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
-  /* padding: 40px 40px 40px 40px; */
+  padding: 40px 40px 40px 40px;
   gap: 15px;
-  /* border: 2px solid red; */
-}
+  border: 2px solid red;
+} */
 
 .current-topic-three h3 {
   text-align: left;
+  margin-top: 10px;
 }
 .current-topic-three p {
   font-size: 13px;
   font-weight: 400;
+  margin-top: 15px;
   opacity: 0.7;
 }
 #learn-more-link {
   font-size: 15px;
   font-weight: bold;
   text-align: left;
+  margin-top: 45px;
+  color: black;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -561,6 +585,7 @@ nav button {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 40px;
+  border-radius: 16px;
   background-blend-mode: overlay;
   /* border: 2px solid violet; */
 }
@@ -614,7 +639,7 @@ nav button {
 .link-content {
   display: flex;
   justify-content: space-between;
-  padding: 32px 150px 32px 150px;
+  padding: 32px 168px 32px 170px;
 }
 .link-content p {
   font-size: 15px;
