@@ -25,12 +25,42 @@ body {
   justify-content: space-between;
   list-style: none;
 } */
+/* Nav bar  */
+nav {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 150px 32px 150px;
+  /* margin: 0px, 0px; */
+  /* margin-bottom: 30px; */
+  /* border: 2px solid red; */
+}
+nav h3 {
+  width: 190px;
+  height: 34px;
+  font-size: 20px;
+  font-weight: 800;
+  /* margin-top: 19px; */
+}
+
+nav button {
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  /* margin-top: 15px; */
+  border-radius: 7px;
+  cursor: pointer;
+}
+
 .banner-container {
   /* width: 1440px; */
   width: 1474px;
   height: 652px;
   display: flex;
   margin: 0 auto;
+  /* margin-top: 30px; */
   background-image: url("../assets/Hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
