@@ -606,6 +606,11 @@ nav button {
   /* border: 2px solid blue; */
 }
 
+.ancor-tag-link {
+  display: flex;
+  gap: 20px;
+}
+
 .link-content {
   display: flex;
   justify-content: space-between;
